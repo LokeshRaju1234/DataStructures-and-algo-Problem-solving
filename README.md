@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0001-two-sum) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
@@ -62,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
