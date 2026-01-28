@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
@@ -11,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
@@ -18,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
@@ -30,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
@@ -42,4 +46,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Graph Theory
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Topological Sort
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
