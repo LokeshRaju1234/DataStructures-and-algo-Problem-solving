@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0127-word-ladder) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0463-island-perimeter](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0542-01-matrix) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0001-two-sum) |
+| [0127-word-ladder](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0127-word-ladder) |
 ## Two Pointers
 |  |
 | ------- |
@@ -86,4 +88,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0015-3sum) |
+## String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
