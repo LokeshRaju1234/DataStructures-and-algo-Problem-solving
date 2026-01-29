@@ -1,43 +1,47 @@
 class Solution {
 public:
-    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-        int n = grid.size();
+    int shortestPathBinaryMatrix(vector<vector<int>>& mat) {
+        int n = mat.size();
+        int m = mat[0].size();
 
-        // blocked start or end
-        if (grid[0][0] == 1 || grid[n-1][n-1] == 1)
+        if(mat[0][0] == 1 || mat[n - 1][n - 1] == 1)
+        {
             return -1;
+        }
 
-        queue<pair<int,int>> q;
-        q.push({0, 0});
-        grid[0][0] = 1;   // mark visited
-        int steps = 1;
-
-        int dr[8] = {-1,-1,-1,0,0,1,1,1};
-        int dc[8] = {-1,0,1,-1,1,-1,0,1};
-
+        queue<pair<int, int>> q;
+        q.push({0,0});
+        mat[0][0] = 1;//mark as visited
+        int length = 1;
+        vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1},{-1,-1},{-1,1},{1,-1},{1,1}};
         while (!q.empty()) {
             int size = q.size();
-            while (size--) {
-                auto [r, c] = q.front();
+
+            for(int i = 0; i < size;i++)
+            {
+                auto [row,col] = q.front();
                 q.pop();
 
-                if (r == n-1 && c == n-1)
-                    return steps;
+                if(row == n - 1 && col == n - 1)
+                {
+                    return length;
+                }
+                for(auto [x,y] : directions)
+                {
+                    int r = row + x;
+                    int c = col + y;
 
-                for (int i = 0; i < 8; i++) {
-                    int nr = r + dr[i];
-                    int nc = c + dc[i];
-
-                    if (nr >= 0 && nc >= 0 && nr < n && nc < n &&
-                        grid[nr][nc] == 0) {
-
-                        grid[nr][nc] = 1; // mark visited
-                        q.push({nr, nc});
+                    if(r >= 0 && r < n && c >= 0 && c < m && mat[r][c] == 0)
+                    {
+                        mat[r][c] = 1;//mark as visited
+                        q.push({r,c});
                     }
                 }
             }
-            steps++;
+
+            length++;//after completing the all directions we will increase the length
         }
+
         return -1;
     }
 };
