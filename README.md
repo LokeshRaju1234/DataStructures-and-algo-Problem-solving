@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
+| [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
+| [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
+| [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
 ## Binary Search
 |  |
 | ------- |
