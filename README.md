@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Union-Find
 |  |
 | ------- |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0733-flood-fill) |
 | [0778-swim-in-rising-water](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Binary Search
 |  |
 | ------- |
