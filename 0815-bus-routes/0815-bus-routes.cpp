@@ -2,14 +2,18 @@ class Solution {
 public:
     int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
         unordered_map<int,vector<int>>map;
-        if (source == target) return 0;
-        for(int route = 0; route < routes.size();route++)
+        if(source == target)
+        {
+            return 0;
+        }
+        for(int route = 0;route < routes.size();route++)
         {
             for(int stops = 0;stops < routes[route].size();stops++)
             {
                 map[routes[route][stops]].push_back(route);
             }
         }
+
         queue<int>q;
         unordered_set<int>vis;
         for(auto root : map[source])
@@ -19,14 +23,13 @@ public:
         }
 
         int train = 1;
-        while(q.size() > 0)
+        while(!q.empty())
         {
-            int levelsize = q.size();
-            while(levelsize-- > 0)
+            int size = q.size();
+            while(size--)
             {
                 int route = q.front();
                 q.pop();
-
                 for(auto stop : routes[route])
                 {
                     if(stop == target)
@@ -42,10 +45,15 @@ public:
                             q.push(nextroute);
                         }
                     }
+
                 }
+
             }
+
             train++;
         }
         return -1;
+
     }
+
 };
