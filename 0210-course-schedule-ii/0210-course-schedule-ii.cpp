@@ -7,8 +7,8 @@ public:
         {
             int u = edges[i][0];
             int v = edges[i][1];
-            adj[u].push_back(v);
-            indegree[v]++;
+            adj[v].push_back(u);
+            indegree[u]++;
         }
         
         queue<int>q;
@@ -19,7 +19,6 @@ public:
             if(indegree[i] == 0)
             {
                 q.push(i);
-                ans.push_back(i);
             }
         }
         
@@ -27,25 +26,19 @@ public:
         {
             int temp = q.front();
             q.pop();
+            ans.push_back(temp);
             for(auto edge : adj[temp])
             {
                 indegree[edge]--;
                 if(indegree[edge] == 0)
                 {
                     q.push(edge);
-                    ans.push_back(edge);
                 }
             }
         }
+         // If cycle exists
+        if (ans.size() != V) return {};
 
-        reverse(ans.begin(),ans.end());
-        if(ans.size() == V)
-        {
-            return ans;
-        }
-        else
-        {
-        return {};;
-        }
+        return ans;
     }
 };
