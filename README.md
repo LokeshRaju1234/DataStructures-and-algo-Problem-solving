@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0542-01-matrix) |
+| [1143-longest-common-subsequence](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/1143-longest-common-subsequence) |
 ## Graph Theory
 |  |
 | ------- |
@@ -92,4 +93,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/0127-word-ladder) |
+| [1143-longest-common-subsequence](https://github.com/LokeshRaju1234/DataStructures-and-algo-Problem-solving/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
