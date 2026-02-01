@@ -36,8 +36,8 @@ public:
                 }
             }
         }
-        
-int ans = 0;
+
+        int ans = 0;
         for(int i = 0;i < n;i++)
         {
             if(dist[i] == 1e9)
