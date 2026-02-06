@@ -1,9 +1,9 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        return foursum(nums,target);
+        return foursum(nums,(long long)target);
     }
-    vector<vector<int>> twosum(vector<int> &nums,int target,int si,int ei)
+    vector<vector<int>> twosum(vector<int> &nums,long long target,int si,int ei)
     {
         vector<vector<int>> ans;
         int n = nums.size();
@@ -42,7 +42,7 @@ public:
         }
 
     }
-    vector<vector<int>> threesum(vector<int>& nums,int target,int si)
+    vector<vector<int>> threesum(vector<int>& nums,long long target,int si)
     {
         
         vector<vector<int>> res;
@@ -59,7 +59,7 @@ public:
         return res;
     }
 
-    vector<vector<int>> foursum(vector<int>& nums,int target)
+    vector<vector<int>> foursum(vector<int>& nums,long long target)
     {
         sort(nums.begin(),nums.end());
         vector<vector<int>> res;
