@@ -27,7 +27,7 @@ public:
         }
 
         int left = dfs(root->left);
-        if(left == -1) return -1;
+        if(left == -1) return -1;//return -1 when the tree is unbalanced
         int right = dfs(root->right);
         if(right == -1) return -1;
         if(abs(left - right) > 1)
