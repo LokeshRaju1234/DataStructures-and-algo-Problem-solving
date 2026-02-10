@@ -19,24 +19,24 @@ public:
 
         while(!q.empty())
         {
-            auto it = q.front();
+            pair<int,pair<int,int>> curr = q.front();
             q.pop();
 
-            int stops = it.first;
-            int node = it.second.first;
-            int cost = it.second.second;
+            int stops = curr.first;
+            int node = curr.second.first;
+            int cost = curr.second.second;
 
             if(stops > k) continue;
 
-            for(auto it : adj[node])
+            for(int i = 0;i < adj[node].size();i++)
             {
-                int adjnode = it.first;
-                int wt = it.second;
+                int adjnode = adj[node][i].first;
+                int wt = adj[node][i].second;
 
-                if(cost + wt < dist[adjnode] && stops <= k)
+                if(wt + cost < dist[adjnode])
                 {
-                    dist[adjnode] = cost + wt;
-                    q.push({stops + 1, {adjnode,dist[adjnode]}});
+                    dist[adjnode] = wt + cost;
+                    q.push({stops + 1,{adjnode,dist[adjnode]}});
                 }
             }
         }
